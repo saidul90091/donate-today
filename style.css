@@ -1,0 +1,157 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* ========================================
+            Common css
+=======================================*/
+
+
+
+
+/* ========================================
+            Header area css
+=======================================*/
+
+
+/* ========================================
+            Donate area css
+=======================================*/
+.donate_details{
+    text-align: center;
+}
+.donate_amount{
+    display: flex;
+    margin-left: 200px;
+}
+.donate_tk{
+    width: 150px;
+    height: 120px;
+    background-color:rgba(164, 158, 158, 0.051);
+    margin:10px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+#donate_money{
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: rgba(255, 99, 71, 0.165);
+}
+.input_field{
+    text-align: center;
+   
+}
+.input_field input{
+    width: 400px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.081);
+    border: none;
+    margin-bottom: 20px;
+    
+
+}
+.link_button{
+    color: white;
+    background-color: tomato;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+
+}
+
+
+/* ========================================
+        Our donate plan area css
+=======================================*/
+.donate_plan{
+    text-align: center;
+
+}
+
+.donate_packages{
+    display: flex;
+    margin-left: 300px;
+
+}
+.donate_package{
+    width: 200px;
+    padding:10px;
+    margin: 10px;
+}
+#package_one{
+    background-color:  rgba(79, 157, 166, 0.1);
+}
+#package_two{
+background-color: rgba(255, 89, 89, 0.1);;
+}
+#package_three{
+background-color: rgba(245, 186, 108, 0.402);
+}
+
+/* ========================================
+            Blogs area css
+=======================================*/
+.donate_blogs{
+    display: flex;
+    margin-left: 100px;
+
+}
+.blog{
+    width: 45%;
+    margin: 20px;
+}
+.blog img{
+    width: 100%;
+}
+
+
+
+/* ========================================
+            Bonus area css
+=======================================*/
+
+
+
+
+/* ========================================
+        Get my update area css
+=======================================*/
+.update_area{
+    text-align: center;
+}
+.updte_input{
+    width: 800px;
+    height: 200px;
+    background-color: bisque;
+    margin-left: 300px;
+
+}
+.updte_input input{
+    background-color:#D9D9D9;
+    height: 35px;
+    border: none;
+
+}
+.input{
+    padding-top: 100px;
+}
+
+
+
+/* ========================================
+            Footer area css
+=======================================*/
+footer{
+    text-align: center;
+    height:200px;
+    color:white;
+    background-color: black;
+    padding-top: 40px;
+
+}
+#footer_title{
+    color:blue;
+    font-weight: bold;
+
+}
