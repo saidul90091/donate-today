@@ -4,14 +4,18 @@ body{
 /* ========================================
             Common css
 =======================================*/
-
+section{
+    margin-bottom: 100px;
+}
 
 
 
 /* ========================================
-            Header area css
+            Header/banner area css
 =======================================*/
-
+.banner_area img{
+    width: 100%;
+}
 
 /* ========================================
             Donate area css
@@ -71,11 +75,12 @@ body{
 
 .donate_packages{
     display: flex;
-    margin-left: 300px;
+    margin-left:70px;
 
 }
 .donate_package{
-    width: 200px;
+    width: 350px;
+    height: 300px;
     padding:10px;
     margin: 10px;
 }
