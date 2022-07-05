@@ -7,14 +7,30 @@ body{
 section{
     margin-bottom: 100px;
 }
+p{
+    text-align: justify;
+}
 
 
 
 /* ========================================
             Header/banner area css
 =======================================*/
-.banner_area img{
+.banner_image{
     width: 100%;
+    height: 600px;
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.hero_text{
+    color:white;
+    text-align: center;
+    padding-top: 150px;
+}
+#hero_title{
+    font-size: 50px;
+    font-weight: bold;
 }
 
 /* ========================================
@@ -51,6 +67,8 @@ section{
     background-color: rgba(128, 128, 128, 0.081);
     border: none;
     margin-bottom: 20px;
+    font-size: 20px;
+    
     
 
 }
@@ -75,14 +93,15 @@ section{
 
 .donate_packages{
     display: flex;
-    margin-left:70px;
+    margin-left:30px;
 
 }
 .donate_package{
     width: 350px;
-    height: 300px;
-    padding:10px;
+    height: 200px;
+    padding:30px;
     margin: 10px;
+    
 }
 #package_one{
     background-color:  rgba(79, 157, 166, 0.1);
@@ -113,9 +132,24 @@ background-color: rgba(245, 186, 108, 0.402);
 
 
 /* ========================================
-            Bonus area css
+            affected area css
 =======================================*/
-
+.affected{
+    text-align: center;
+}
+.affected_areas{
+    display: flex;
+}
+.affected_area{
+    width: 30%;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+.affected_area img{
+    width: 400px;
+    height: 300px;
+}
 
 
 
