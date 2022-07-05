@@ -34,7 +34,7 @@ p{
 }
 
 /* ========================================
-            Donate area css
+            Donate today area css
 =======================================*/
 .donate_details{
     text-align: center;
@@ -50,6 +50,7 @@ p{
     margin:10px;
     text-align: center;
     padding-top: 20px;
+    border-radius: 5px;
 
 }
 #donate_money{
@@ -101,6 +102,7 @@ p{
     height: 200px;
     padding:30px;
     margin: 10px;
+    border-radius: 5px;
     
 }
 #package_one{
@@ -145,6 +147,8 @@ background-color: rgba(245, 186, 108, 0.402);
     border: 1px solid gray;
     margin: 10px;
     padding: 10px;
+    box-shadow: 5px 5px 20px gray;
+    border: none;
 }
 .affected_area img{
     width: 400px;
@@ -192,5 +196,4 @@ footer{
 #footer_title{
     color:blue;
     font-weight: bold;
-
 }
